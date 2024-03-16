@@ -59,4 +59,4 @@ class Card:
             self.canvas.itemconfig(self.english_text,text = self.Etext)
             
     def update_score(self):
-        return f"{len(self.deck_cards.Answered)} / {len(self.deck_cards.deck)}"
+        return f"{len(self.deck_cards.Answered)}"
